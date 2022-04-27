@@ -5,6 +5,7 @@
 ////////////////////////////////
 
 #include <iostream>
+#include <vector> // This can be used to make dynamic arrays.
 
 using namespace std;
 
