@@ -10,6 +10,7 @@ int main(void)
     // String
     string a;
     cout << "Enter string a : ";
+    cin.ignore(); // Ignores one EOL character, use this if there are any other cin before getline.
     getline(cin, a);
     a.append("ddddddddgfddd");
     cout << "Hello, a = " << a << "\n";
