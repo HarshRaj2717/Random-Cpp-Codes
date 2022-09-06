@@ -27,7 +27,7 @@ int main(){
     int* x = new int(33);
     auto y = borrow(&x);
     auto z = mut_borrow(&x);
-    *z=123;
+    **z=123;
     std::cout << *x << y << **z;
     auto xx = Move(x);
 
