@@ -1,0 +1,23 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int adder(vector<int> l){
+    int ans;
+
+    /////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////
+    // Works only with vector or initializer_list
+    for(int n:l){
+        ans = ans + n;
+    }
+    /////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////
+    return ans;
+}
+
+int main(){
+    cout << adder({32,4,34,32,4,23,4,32});
+    return 0;
+}
