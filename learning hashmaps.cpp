@@ -26,7 +26,7 @@ int main(){
     // Check if a key is present or not
     cout << m1.count("three") << endl; // will give 1
     cout << m1.count("bruh") << endl; // will give 0
-    if(m1.count("bruh")){
+    if(m1.count("bruh") || !(m1["bruh"])){ // false || !(false)
         cout << "This can also be used with conditional statements." << endl;
     }
 
